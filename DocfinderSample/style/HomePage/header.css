@@ -1,0 +1,32 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 10px;
+  background-color:#073042;
+  color: white;
+  height: 150px;
+  font-size: 13px;
+  line-height: 35px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  flex-shrink: 0;
+}
+
+.left-header{
+  width: 450px;
+}
+
+.left-header a{
+  color: white;
+  font-size: 13px;
+  font-family:"open sans",sans-serif;
+}
+
+.right-header{
+  font-size: 0px;
+  height: 100px;
+}

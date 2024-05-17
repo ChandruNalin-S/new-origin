@@ -1,0 +1,45 @@
+.side-bar{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 120px;
+  left: 0;
+  z-index:5;
+  background-color: #F8F9FA;
+}
+
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height:40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin-bottom: 15px;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:active .side-bar-color{
+  background-color: rgb(212, 236, 247);
+}
+
+
+.side-bar-color{
+  width: 14%;
+  height:70%;
+  border-radius: 14px;
+  border: none;
+  background-color: blue;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+
+

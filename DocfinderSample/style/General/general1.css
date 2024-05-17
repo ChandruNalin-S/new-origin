@@ -1,0 +1,14 @@
+body{
+  font-family:"open sans",sans-serif;
+  margin: 0;
+  font-size: 15px;
+  background-color: #F8F9FA;
+  padding-top: 200px;
+  padding-bottom: 1000px;
+  padding-left: 500px;
+}
+
+
+p{
+  margin: 0;
+}

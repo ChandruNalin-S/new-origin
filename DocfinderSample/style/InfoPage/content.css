@@ -1,0 +1,137 @@
+/* Below css is for Name page*/
+
+
+.About-container{
+  width: 600px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.certificate-name{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.About-container p{
+  line-height: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+@media (max-width: 1000px){
+  .side-bar{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 120px;
+    right: 0;
+  }
+
+  .side-bar-container{
+    margin-left: 10px;
+  }
+
+  body{
+    position: relative;
+  }
+
+  .About-container,.Eligibility-container,.validity-container,.requirement-container{
+    position: absolute;
+    left: 8%;
+    top: 20%;
+  }
+}
+  
+
+
+
+/* below css is for eligibility page*/
+
+.Eligibility-container{
+  width: 600px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.details-Econtainer{
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+
+.details-Econtainer .title{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.title-content{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.content-name{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+/* below css is for validity page*/
+
+
+.validity-container{
+  width: 600px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.content-container .content-name{
+  margin-bottom: 2%;
+}
+
+
+.details-Vcontainer .title, .consequences-Vcontainer .title{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+
+.content-container, .validity-container, .consequences-Vcontainer{
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.consequences-Vcontainer ol{
+  margin: 5px;
+}
+
+/* below css is for Requiremnt page*/
+
+.requirement-container{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.required-details, .required-proof{
+  line-height: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+.required-proof ol{
+  margin-bottom: 0;
+}
